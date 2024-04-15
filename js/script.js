@@ -1,7 +1,7 @@
 const btnTotal = document.querySelector(".equals");
 const resetBtn = document.querySelector(".c-btn");
 const displayIn = document.querySelector(".result");
-let buttons = document.querySelectorAll(".button-numbers");
+let buttons = document.querySelectorAll(".btn-numbers");
 let operators = document.querySelectorAll(".operator");
 let primoValore = 0;
 let secondoValore = 0;
@@ -15,7 +15,7 @@ for(let i = 0; i < buttons.length; i++) {
 
 for (let i = 0; i< operators.length; i++) {
     const valoriOperatori = operators[i];
-    valoriOperatori.addEventListener("click", operators);
+    valoriOperatori.addEventListener("click", operatori);
 }
 
 btnTotal.addEventListener("click", btnTotal);

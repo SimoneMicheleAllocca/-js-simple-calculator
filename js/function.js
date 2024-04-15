@@ -1,7 +1,7 @@
 
 function btnNumeri() {
-    if (displayIn.innerHTML.length <=10) {
-        displayIn.innweHTML+= this.innerHTML;
+    if (displayIn.innerHTML.length <= 10) {
+        displayIn.innerHTML+= this.innerHTML;
     }
 }
 
